@@ -289,7 +289,7 @@ def rooms():
         if event.type == pygame.MOUSEBUTTONDOWN:
             #time.sleep(0.2)
             if pygame.sprite.spritecollide(cursor,Back_group,False):
-                pygame.mixer.Sound("click.wav")
+                #
                 gameState = 'start'
         elif event.type == pygame.MOUSEMOTION:
             mouse_pos = pygame.mouse.get_pos()
